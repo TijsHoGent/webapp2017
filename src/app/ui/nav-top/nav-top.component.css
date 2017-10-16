@@ -1,0 +1,11 @@
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-nav li{
+    padding: 0 10px 0 10px;
+}
+
+.navbar-brand a {
+    color: lightslategray;
+}
