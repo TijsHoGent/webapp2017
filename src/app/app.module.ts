@@ -6,8 +6,7 @@ import { NavTopComponent } from './ui/nav-top/nav-top.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavTopComponent
+    AppComponent
   ],
   imports: [
     BrowserModule
