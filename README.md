@@ -28,3 +28,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## REST
+GET | api/hotels | get all hotels
+POST | api/hotels | create a new hotel
+GET | api/hotels/1234 | get a specifit hotel 
+PUT | api/hotels/1234 | update a specific hotel
+DELETE | api/hotel/1234 | delete a specific hotel
+
+GET | api/hotels/1234/reviews | get a specif hotels' review
+POST | api/hotels/1234/review | add a review to a specific hotel
+GET | api/hotels/1234/reviews/4321 | get a specific review
+PUT | api/hotels/1234/reviews/4321 | update a specific hotel review
+DELETE | api/hotels/1234/reviews/4321 | delete a specific review 
