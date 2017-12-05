@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-12">
+      <h1>Hotels</h1>
+  </div>
+    <div id="hotel-card" *ngFor="let hotel of hotels" class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="">
+        <div class="card-header">
+            <h5 class="card-title">
+              {{ hotel.name}}
+            </h5>
+            <h6><em>{{hotel.location}}</em></h6>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                {{ hotel.hotelDescription }}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto saepe officia laudantium iste. Cumque adipisci assumenda maxime quae eum laboriosam nisi quisquam praesentium impedit. Porro voluptatum asperiores error explicabo cum.
+              </p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6">
+              <ngb-rating [(rate)]="hotel.stars" [readonly]="true" [max]="5"></ngb-rating>
+            </div>
+            <div class="col-md-6">
+                <a href="#">{{ hotel.reviews.length }} reviews</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="hotels && hotels.length === 0">
+        No Hotels yet, why don't you <a [routerLink]="['/hotels/create']">create one</a>?
+      </div>
+</div>

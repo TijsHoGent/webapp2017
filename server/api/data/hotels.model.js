@@ -28,14 +28,20 @@ let HotelSchema = new mongoose.Schema({
   },
   location_name: String,
   location_id: Number,
-  location_iata: {
+  description: {
     type: String,
     required: false,
     "default": ""
   },
   country_name: String,
   photos_count: Number,
-  reviews: [ReviewSchema]
+  reviews: [ReviewSchema],
+  start: {
+    type: Number,
+    min: 0,
+    max: 5,
+    "default": 0
+  }
 });
 
 mongoose.model('Hotel', HotelSchema);

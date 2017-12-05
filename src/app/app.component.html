@@ -1,3 +1,26 @@
-  <!-- Nav component here -->
+<!-- Nav component here -->
 
-Works
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
+      <div class="navbar-brand">
+        <h3>Navigation</h3>
+      </div>
+      <ul class="nav nav-pills flex-column" style="height:100%">
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/hotels" class="nav-link">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/reviews" class="nav-link">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9 col-md-10 ml-sm-auto pt-3">
+      <router-outlet></router-outlet>
+
+    </div>
+  </div>
+</div>

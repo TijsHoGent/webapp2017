@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 let dbUrl = 'mongodb://localhost:27017/webappdb';
 
-mongoose.connect(dbUrl);
+mongoose.connect(dbUrl, { useMongoClient: true});
 
 mongoose.connection.on("connected", () => {
   console.log('Mongoose has connected');

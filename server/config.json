@@ -1,0 +1,17 @@
+{
+  "root": "/Users/tijs/Desktop/webapp2017/webapp/server",
+  "pidPath": "/Users/tijs/Desktop/webapp2017/webapp/server/pids",
+  "sockPath": "/Users/tijs/Desktop/webapp2017/webapp/server/sock",
+  "loglength": 100,
+  "logstream": false,
+  "columns": [
+    "uid",
+    "command",
+    "script",
+    "forever",
+    "pid",
+    "id",
+    "logfile",
+    "uptime"
+  ]
+}
