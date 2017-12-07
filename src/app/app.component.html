@@ -1,26 +1,47 @@
 <!-- Nav component here -->
+<nav class="navbar navbar-light bg-light">
+  <div class="navbar-brand">
+    <h3>Navigation</h3>
+  </div>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a routerLink="/" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/hotels" class="nav-link">Hotels</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/reviews" class="nav-link">Reviews</a>
+    </li>
+    <div class="user-links" *ngIf="!currentUser else loggedin">
+      <li class="nav-item">
+        <a [routerLink]="['/signup']" class="nav-link">Register</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/signin']" class="nav-link">Login</a>
+      </li>
+    </div>
+  </ul>
 
+</nav>
 <div class="container-fluid">
   <div class="row">
-    <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-      <div class="navbar-brand">
-        <h3>Navigation</h3>
-      </div>
-      <ul class="nav nav-pills flex-column" style="height:100%">
-        <li class="nav-item">
-          <a routerLink="/" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/hotels" class="nav-link">Hotels</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/reviews" class="nav-link">Reviews</a>
-        </li>
-      </ul>
-    </nav>
+
     <div class="col-sm-9 col-md-10 ml-sm-auto pt-3">
       <router-outlet></router-outlet>
-
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  window.user = user || 'null';
+</script>
+
+<ng-template #loggedin>
+<div class="user-links">
+    <li class="nav-item">
+        <a [routerLink]="['/signout']" class="nav-link">hello {{ currentUser.firstName }}</a>
+      </li>
+</div>
+
+</ng-template>

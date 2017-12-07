@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './_models/user';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  currentUser: User = JSON.parse(localStorage.getItem('currentUser'));
 }

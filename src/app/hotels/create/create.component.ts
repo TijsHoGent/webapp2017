@@ -1,7 +1,9 @@
-import { HotelService } from '../hotel.service';
+import { HotelService } from '../../_services/hotel.service';
 import { Component, OnInit } from '@angular/core';
-import { Hotel } from '../../models/hotel.class';
 import { Router } from '@angular/router';
+import { AlertService } from '../../_services/alert.service';
+import { User } from '../../_models/user';
+import { Hotel } from '../../_models/hotel';
 
 @Component({
   selector: 'app-create',
@@ -10,18 +12,27 @@ import { Router } from '@angular/router';
 })
 export class CreateComponent implements OnInit {
 
+  user: User;
   hotel: any = {};
   errorMessage: String;
-  constructor(private _router: Router, private _service: HotelService) { }
+  loading = false;
+  constructor(private _router: Router, private _hotelService: HotelService, private _alertService: AlertService) { }
 
   ngOnInit() {
+    this.user = JSON.parse(localStorage.getItem('currentUser'));
   }
 
   create() {
-    this._service
-      .create(this.hotel)
-      .subscribe(createdHotel => console.log('hotel added'),
-              error => this.errorMessage = error);
+    this.loading = true;
+    this._hotelService.create(this.hotel, this.user)
+    .subscribe(data => {
+      console.log('adding hotel');
+      this._router.navigate(['/hotels']);
+    },
+    error => {
+      console.log('error occurred');
+      this.loading = false;
+    });
   }
 
 }

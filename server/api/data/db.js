@@ -14,7 +14,7 @@ mongoose.connection.on("error", (err) => {
 })
 
 //initialize schema and requires
+require('./users.model');
 require('./hotels.model');
-require('./reviews.model');
 
 

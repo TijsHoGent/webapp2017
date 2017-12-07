@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Hotel = mongoose.model('Hotel');
 
+const hotelService = require('../services/hotel.service');
+
 //error handling of mongoose
 function getErrorMessage(err) {
   if(err.errors) {
@@ -13,24 +15,16 @@ function getErrorMessage(err) {
 }
 
 exports.create = function(res, req) {
-  const hotel = new Hotel(req.body);
-  hotel.save((err) => {
-    if(err) {
-      return res.status(400).send({message: getErrorMessage(err)});
-    }else {
-      res.status(200).json(hotel);
-    }
-  })
+  let hotel = new Hotel();
+  console.log(req.body);
+  hotelService.create(req.body)
+  .then(function() {
+    res.sendStatus(200).json(req);
+  }).catch(function(err){
+    res.status(400).send(err);
+  }) ;
 }
 
 exports.list = function(res, req) {
-  Hotel
-  .find()
-  .exec((err, hotels) => {
-    if(err) {
-      return res.status(400).send({message: getErrorMessage(err)});
-    } else {
-      res.status(200).json(hotels);
-    }
-  })
+  hotelService.getAll();
 }

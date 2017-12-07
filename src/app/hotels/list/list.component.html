@@ -2,6 +2,36 @@
   <div class="col-md-12">
       <h1>Hotels</h1>
   </div>
+  <div id="hotel-card" class="col-md-4">
+    <a class="hotel-create-link" [routerLink]="['/hotels/create']">
+      <p>Add hotel</p>
+    </a>
+      <div class="card">
+        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="">
+        <div class="card-header">
+            <h5 class="card-title">
+              Hotel
+            </h5>
+            <h6><em>Hotel Location</em></h6>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                Hotel
+              </p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col-md-6">
+              <ngb-rating [readonly]="true" [max]="5"></ngb-rating>
+            </div>
+            <div class="col-md-6">
+                <a href="#">0 reviews</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="hotel-card" *ngFor="let hotel of hotels" class="col-md-4">
       <div class="card">
         <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="">

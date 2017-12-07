@@ -1,2 +1,380 @@
 (node:44604) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
 (node:44604) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+(node:60169) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+(node:60318) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+(node:60592) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+(node:60854) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:35:3
+    at Layer.handle [as handle_request] (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:260:14)
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+Error: Failed to lookup view "error" in views directory "/Users/tijs/Desktop/webapp2017/webapp/server/views"
+    at Function.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/response.js:971:7)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/app.js:46:7
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:315:13)
+    at /Users/tijs/Desktop/webapp2017/webapp/server/node_modules/express/lib/router/index.js:284:7
