@@ -9,6 +9,7 @@ var ejs = require('ejs');
 var index = require('./api/routes/index');
 var users = require('./api/routes/users');
 let hotels = require('./api/routes/hotels');
+let reviews = require('./api/routes/reviews');
 var app = express();
 var passport = require('passport');
 
@@ -31,7 +32,11 @@ require('./config/passport')(passport);
 
 app.use('/users', users);
 app.use('/api', hotels);
+app.use('/api', reviews)
 
+app.param('hotelid', function(req, res, next, hotelid) {
+  next();
+})
 
 app.use(function(err, req, res, next) {
   console.log(err);

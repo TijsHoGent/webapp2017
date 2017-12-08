@@ -1,3 +1,7 @@
-<p>
-  review-list works!
-</p>
+<div *ngIf="reviews && reviews.length === 0">
+  No Reviews yet, why don't you <a [routerLink]="['add']">Add one</a>?
+</div>
+
+<div class="container">
+  <router-outlet (shareReview)="loadReviews($event)" [(ngModel)]="hotelId"></router-outlet>
+</div>

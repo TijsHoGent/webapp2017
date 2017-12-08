@@ -5,20 +5,20 @@ let ReviewSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  rating: {
-    type: Number,
-    min: 0,
-    max: 5,
-    required: true
+  user: {
+    type: [{
+      String,
+      String,
+    }]
   },
   review: {
     type: String,
     requried: true
   },
   createdOn: {
-    type: Date,
+    type: Number,
     "default": Date.now
   }
 })
-
-mongoose.model('Review', ReviewSchema);
+let Review = mongoose.model('Review', ReviewSchema);
+module.exports = Review;
