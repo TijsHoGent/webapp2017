@@ -7,8 +7,6 @@ import { FormsModule} from '@angular/forms';
 import { HotelsComponent } from './hotels.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateComponent } from './create/create.component';
-import { HotelService } from '../_services/hotel.service';
-
 @NgModule({
   imports: [
     CommonModule,

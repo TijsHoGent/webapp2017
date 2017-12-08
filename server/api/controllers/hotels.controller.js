@@ -14,7 +14,7 @@ function getErrorMessage(err) {
   }
 }
 
-exports.create = function(res, req) {
+module.exports.create = function(req, res) {
   let hotel = new Hotel();
   console.log(req.body);
   hotelService.create(req.body)
@@ -25,6 +25,13 @@ exports.create = function(res, req) {
   }) ;
 }
 
-exports.list = function(res, req) {
-  hotelService.getAll();
+module.exports.list = function(req, res, next) {
+  console.log("getAll request called");
+
+  Hotel.find(function(err, hotels) {
+    if(err) {
+      return next(err);
+    }
+    res.json(hotels);
+  });
 }

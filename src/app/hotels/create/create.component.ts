@@ -26,6 +26,7 @@ export class CreateComponent implements OnInit {
     this.loading = true;
     this._hotelService.create(this.hotel, this.user)
     .subscribe(data => {
+      this._alertService.success('added hotel');
       console.log('adding hotel');
       this._router.navigate(['/hotels']);
     },

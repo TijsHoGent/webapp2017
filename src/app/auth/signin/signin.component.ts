@@ -4,13 +4,14 @@ import { Component, OnInit } from '@angular/core';
 import { AuthenticationService } from '../../_services/authentication.service';
 import { ActivatedRoute } from '@angular/router';
 import { AlertService } from '../../_services/alert.service';
+import { OnChanges } from '@angular/core/src/metadata/lifecycle_hooks';
 
 @Component({
   selector: 'app-signin',
   templateUrl: './signin.component.html',
   styleUrls: ['./signin.component.scss']
 })
-export class SigninComponent implements OnInit {
+export class SigninComponent implements OnInit, OnChanges {
 
   errorMessage: String;
   loading = false;
@@ -28,7 +29,9 @@ export class SigninComponent implements OnInit {
 
     this.returnUrl = this._route.snapshot.queryParams['returnUrl'] || '/';
   }
-
+  ngOnChanges() {
+    this._service.logout();
+  }
   signIn() {
     this.loading = true;
     this._service.login(this.credentials.username, this.credentials.password)

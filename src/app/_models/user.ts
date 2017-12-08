@@ -1,4 +1,4 @@
-import { Hotel } from '../models/hotel.class';
+import { Hotel } from './hotel';
 
 export class User {
   _id: string;

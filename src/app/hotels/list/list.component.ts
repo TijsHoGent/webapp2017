@@ -1,6 +1,7 @@
-import { Hotel } from './../../models/hotel.class';
-import { HotelService } from './../hotel.service';
+import { AlertService } from './../../_services/alert.service';
+import { Hotel } from '../../_models/hotel';
 import { Component, OnInit } from '@angular/core';
+import { HotelService } from '../../_services/hotel.service';
 
 @Component({
   selector: 'app-list',
@@ -9,15 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  hotels: any;
+  hotels: any[] = [];
   errorMessage: string;
-  constructor(private _service: HotelService) { }
+  loading = false;
+  constructor(private _service: HotelService, private _alertService: AlertService) { }
 
   ngOnInit() {
-    this._service.list().subscribe(hotels => {
-      this.hotels = hotels;
-      console.log(hotels);
-    });
+    this.loading = true;
+    this.loadHotels();
   }
 
+  loadHotels() {
+    return this._service.getAll().subscribe(hotels => this.hotels = hotels);
+  }
 }

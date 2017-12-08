@@ -4,7 +4,9 @@ let HotelSchema = new mongoose.Schema({
   name: String,
   location: String,
   description: String,
-  createdBy: {},
+  createdBy: {
+    type: String,
+  },
   createdAt: Number
 });
 

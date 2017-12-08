@@ -1,10 +1,12 @@
 import { User } from './user';
+import { Review } from './review';
 
 export class Hotel {
   _id: string;
-  name: string;
-  location: string;
-  description: string;
-  createdBy: User;
+  name: String;
+  location: String;
+  description: String;
+  createdBy: String;
   createdAt: Number;
+  reviews: Review[];
 }
